@@ -1,0 +1,15 @@
+CREATE TABLE jumlah_penduduk (
+    kecamatan VARCHAR(50) PRIMARY KEY,
+    longitude DECIMAL(10, 4),
+    latitude DECIMAL(10, 4),
+    luas DECIMAL(5, 2),
+    jumlah_penduduk INT
+);
+
+
+INSERT INTO jumlah_penduduk (kecamatan, longitude, latitude, luas, jumlah_penduduk) VALUES
+('Moyudan', 110.2478, -7.7774, 27.62, 31497),
+('Minggir', 110.2484, -7.7318, 27.27, 29886),
+('Seyegan', 110.3003, -7.7265, 26.63, 47129),
+('Godean', 110.2957, -7.7681, 26.84, 72028),
+('Gamping', 110.3202, -7.7903, 29.25, 108675);
